@@ -1,5 +1,10 @@
 # deploy SEAgent-1.0-7B model
 
+vllm serve Zery/SEAgent-1.0-7B \
+    --served-model-name "ui-tars-1.0-7b" \
+    --host 0.0.0.0 \
+    --port "${PORT}" \
+    --tensor-parallel-size "${TP}" &
 
 export UI_TARS_1_0_URL=http://YOUR.IP.ADDRESS:PORT/v1
 model_name="ui-tars-1.0-7b"
