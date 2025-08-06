@@ -1,0 +1,121 @@
+judge,benchmark,agent,category,accuracy,precision,recall,f1,npv,tnr,unsures,total
+qwen-2.5-vl-screen,AssistantBench,Claude 3.7 Sonnet,Success,100.0,100.0,100.0,100.0,100.0,100.0,0,27
+qwen-2.5-vl-screen,AssistantBench,Claude 3.7 Sonnet,Side Effect,74.1,0.0,0,0,100.0,74.1,1,27
+qwen-2.5-vl-screen,AssistantBench,Claude 3.7 Sonnet,Repetition,85.2,57.1,80.0,66.7,95.0,86.4,0,27
+qwen-2.5-vl-screen,AssistantBench,Claude 3.7 Sonnet,Optimality,0.4074,,,,,,0,27
+qwen-2.5-vl-screen,AssistantBench,GPT-4o,Success,92.6,75.0,75.0,75.0,95.7,95.7,0,27
+qwen-2.5-vl-screen,AssistantBench,GPT-4o,Side Effect,85.2,0.0,0.0,0,92.0,92.0,1,27
+qwen-2.5-vl-screen,AssistantBench,GPT-4o,Repetition,85.2,83.3,93.8,88.2,88.9,72.7,0,27
+qwen-2.5-vl-screen,AssistantBench,GPT-4o,Optimality,0.3704,,,,,,0,27
+qwen-2.5-vl-screen,AssistantBench,Llama 3.3,Success,88.9,25.0,100.0,40.0,100.0,88.5,0,27
+qwen-2.5-vl-screen,AssistantBench,Llama 3.3,Side Effect,85.2,0.0,0.0,0,95.8,88.5,1,27
+qwen-2.5-vl-screen,AssistantBench,Llama 3.3,Repetition,81.5,72.2,100.0,83.9,100.0,64.3,0,27
+qwen-2.5-vl-screen,AssistantBench,Llama 3.3,Optimality,0.2963,,,,,,0,27
+qwen-2.5-vl-screen,AssistantBench,Qwen2.5-VL,Success,100.0,0,0,0,100.0,100.0,0,27
+qwen-2.5-vl-screen,AssistantBench,Qwen2.5-VL,Side Effect,88.9,0.0,0,0,100.0,88.9,1,27
+qwen-2.5-vl-screen,AssistantBench,Qwen2.5-VL,Repetition,59.3,59.3,100.0,74.4,0,0.0,0,27
+qwen-2.5-vl-screen,AssistantBench,Qwen2.5-VL,Optimality,0.7037,,,,,,0,27
+qwen-2.5-vl-screen,AssistantBench,All,Success,95.4,63.6,87.5,73.7,99.0,96.0,0,108
+qwen-2.5-vl-screen,AssistantBench,All,Side Effect,83.3,0.0,0.0,0,96.8,85.7,1,108
+qwen-2.5-vl-screen,AssistantBench,All,Repetition,77.8,68.6,96.0,80.0,94.7,62.1,0,108
+qwen-2.5-vl-screen,AssistantBench,All,Optimality,0.4444,,,,,,0,108
+qwen-2.5-vl-screen,WebArena,Claude 3.7 Sonnet,Success,71.8,72.3,79.1,75.6,71.0,62.9,0,78
+qwen-2.5-vl-screen,WebArena,Claude 3.7 Sonnet,Side Effect,84.6,22.2,28.6,25.0,92.8,90.1,1,78
+qwen-2.5-vl-screen,WebArena,Claude 3.7 Sonnet,Repetition,85.9,45.0,100.0,62.1,100.0,84.1,0,78
+qwen-2.5-vl-screen,WebArena,Claude 3.7 Sonnet,Optimality,0.5,,,,,,0,78
+qwen-2.5-vl-screen,WebArena,GPT-4o,Success,83.3,75.0,90.9,82.2,92.1,77.8,0,78
+qwen-2.5-vl-screen,WebArena,GPT-4o,Side Effect,85.9,0.0,0.0,0,93.1,91.8,1,78
+qwen-2.5-vl-screen,WebArena,GPT-4o,Repetition,88.5,80.0,88.9,84.2,93.8,88.2,0,78
+qwen-2.5-vl-screen,WebArena,GPT-4o,Optimality,0.5128,,,,,,0,78
+qwen-2.5-vl-screen,WebArena,Llama 3.3,Success,86.8,65.2,88.2,75.0,96.2,86.4,0,76
+qwen-2.5-vl-screen,WebArena,Llama 3.3,Side Effect,73.7,0.0,0.0,0,96.6,75.7,1,76
+qwen-2.5-vl-screen,WebArena,Llama 3.3,Repetition,86.8,82.9,91.9,87.2,91.4,82.1,0,76
+qwen-2.5-vl-screen,WebArena,Llama 3.3,Optimality,0.5658,,,,,,0,76
+qwen-2.5-vl-screen,WebArena,Qwen2.5-VL,Success,76.9,61.8,80.8,70.0,88.6,75.0,0,78
+qwen-2.5-vl-screen,WebArena,Qwen2.5-VL,Side Effect,79.5,15.4,28.6,20.0,92.3,84.5,1,78
+qwen-2.5-vl-screen,WebArena,Qwen2.5-VL,Repetition,88.5,92.1,85.4,88.6,85.0,91.9,0,78
+qwen-2.5-vl-screen,WebArena,Qwen2.5-VL,Optimality,0.4744,,,,,,0,78
+qwen-2.5-vl-screen,WebArena,All,Success,79.7,69.4,84.0,76.0,88.6,77.0,0,310
+qwen-2.5-vl-screen,WebArena,All,Side Effect,81.0,8.7,19.0,11.9,93.6,85.5,1,310
+qwen-2.5-vl-screen,WebArena,All,Repetition,87.4,79.1,89.5,83.9,93.4,86.2,0,310
+qwen-2.5-vl-screen,WebArena,All,Optimality,0.5129,,,,,,0,310
+qwen-2.5-vl-screen,VisualWebArena,Claude 3.7 Sonnet,Success,78.3,60.7,65.4,63.0,85.9,83.3,0,92
+qwen-2.5-vl-screen,VisualWebArena,Claude 3.7 Sonnet,Side Effect,69.6,7.4,40.0,12.5,95.4,71.3,1,92
+qwen-2.5-vl-screen,VisualWebArena,Claude 3.7 Sonnet,Repetition,80.4,65.4,100.0,79.1,100.0,69.0,0,92
+qwen-2.5-vl-screen,VisualWebArena,Claude 3.7 Sonnet,Optimality,0.2935,,,,,,0,92
+qwen-2.5-vl-screen,VisualWebArena,GPT-4o,Success,82.6,71.8,84.8,77.8,90.6,81.4,0,92
+qwen-2.5-vl-screen,VisualWebArena,GPT-4o,Side Effect,81.5,17.6,50.0,26.1,96.0,83.7,1,92
+qwen-2.5-vl-screen,VisualWebArena,GPT-4o,Repetition,81.5,65.2,96.8,77.9,97.8,73.8,0,92
+qwen-2.5-vl-screen,VisualWebArena,GPT-4o,Optimality,0.4022,,,,,,0,92
+qwen-2.5-vl-screen,VisualWebArena,Llama 3.3,Success,0,0,0,0,0,0,0,0
+qwen-2.5-vl-screen,VisualWebArena,Llama 3.3,Side Effect,0,0,0,0,0,0,1,0
+qwen-2.5-vl-screen,VisualWebArena,Llama 3.3,Repetition,0,0,0,0,0,0,0,0
+qwen-2.5-vl-screen,VisualWebArena,Llama 3.3,Optimality,0,,,,,,0,0
+qwen-2.5-vl-screen,VisualWebArena,Qwen2.5-VL,Success,87.0,70.0,70.0,70.0,91.7,91.7,0,92
+qwen-2.5-vl-screen,VisualWebArena,Qwen2.5-VL,Side Effect,65.9,26.7,47.1,34.0,85.2,70.3,1,91
+qwen-2.5-vl-screen,VisualWebArena,Qwen2.5-VL,Repetition,90.2,87.1,100.0,93.1,100.0,71.0,0,92
+qwen-2.5-vl-screen,VisualWebArena,Qwen2.5-VL,Optimality,0.2826,,,,,,0,92
+qwen-2.5-vl-screen,VisualWebArena,All,Success,82.6,67.8,74.7,71.1,89.4,85.8,0,276
+qwen-2.5-vl-screen,VisualWebArena,All,Side Effect,72.4,17.6,46.4,25.5,92.5,75.3,1,275
+qwen-2.5-vl-screen,VisualWebArena,All,Repetition,84.1,74.4,99.2,85.0,99.1,71.3,0,276
+qwen-2.5-vl-screen,VisualWebArena,All,Optimality,0.3261,,,,,,0,276
+qwen-2.5-vl-screen,WorkArena,Claude 3.7 Sonnet,Success,93.8,100.0,90.9,95.2,83.3,100.0,0,16
+qwen-2.5-vl-screen,WorkArena,Claude 3.7 Sonnet,Side Effect,68.8,0.0,0,0,100.0,68.8,1,16
+qwen-2.5-vl-screen,WorkArena,Claude 3.7 Sonnet,Repetition,87.5,83.3,83.3,83.3,90.0,90.0,0,16
+qwen-2.5-vl-screen,WorkArena,Claude 3.7 Sonnet,Optimality,0.6875,,,,,,0,16
+qwen-2.5-vl-screen,WorkArena,GPT-4o,Success,93.8,100.0,87.5,93.3,88.9,100.0,0,16
+qwen-2.5-vl-screen,WorkArena,GPT-4o,Side Effect,68.8,0.0,0.0,0,91.7,73.3,1,16
+qwen-2.5-vl-screen,WorkArena,GPT-4o,Repetition,87.5,71.4,100.0,83.3,100.0,81.8,0,16
+qwen-2.5-vl-screen,WorkArena,GPT-4o,Optimality,0.4375,,,,,,0,16
+qwen-2.5-vl-screen,WorkArena,Llama 3.3,Success,87.5,100.0,77.8,87.5,77.8,100.0,0,16
+qwen-2.5-vl-screen,WorkArena,Llama 3.3,Side Effect,50.0,0.0,0.0,0,88.9,53.3,1,16
+qwen-2.5-vl-screen,WorkArena,Llama 3.3,Repetition,75.0,57.1,80.0,66.7,88.9,72.7,0,16
+qwen-2.5-vl-screen,WorkArena,Llama 3.3,Optimality,0.5625,,,,,,0,16
+qwen-2.5-vl-screen,WorkArena,Qwen2.5-VL,Success,81.2,100.0,66.7,80.0,70.0,100.0,0,16
+qwen-2.5-vl-screen,WorkArena,Qwen2.5-VL,Side Effect,81.2,0.0,0,0,100.0,81.2,1,16
+qwen-2.5-vl-screen,WorkArena,Qwen2.5-VL,Repetition,100.0,100.0,100.0,100.0,100.0,100.0,0,16
+qwen-2.5-vl-screen,WorkArena,Qwen2.5-VL,Optimality,0.5625,,,,,,0,16
+qwen-2.5-vl-screen,WorkArena,All,Success,89.1,100.0,81.1,89.6,79.4,100.0,0,64
+qwen-2.5-vl-screen,WorkArena,All,Side Effect,67.2,0.0,0.0,0,95.6,69.4,1,64
+qwen-2.5-vl-screen,WorkArena,All,Repetition,87.5,76.9,90.9,83.3,94.7,85.7,0,64
+qwen-2.5-vl-screen,WorkArena,All,Optimality,0.5625,,,,,,0,64
+qwen-2.5-vl-screen,WorkArena++,Claude 3.7 Sonnet,Success,85.1,63.6,43.8,51.9,88.2,94.4,0,87
+qwen-2.5-vl-screen,WorkArena++,Claude 3.7 Sonnet,Side Effect,48.3,15.1,100.0,26.2,100.0,43.0,1,87
+qwen-2.5-vl-screen,WorkArena++,Claude 3.7 Sonnet,Repetition,69.0,65.8,100.0,79.4,100.0,22.9,0,87
+qwen-2.5-vl-screen,WorkArena++,Claude 3.7 Sonnet,Optimality,0.3103,,,,,,0,87
+qwen-2.5-vl-screen,WorkArena++,GPT-4o,Success,83.9,100.0,12.5,22.2,83.5,100.0,0,87
+qwen-2.5-vl-screen,WorkArena++,GPT-4o,Side Effect,47.1,6.2,75.0,11.5,97.4,45.8,1,87
+qwen-2.5-vl-screen,WorkArena++,GPT-4o,Repetition,85.1,84.3,100.0,91.5,100.0,23.5,0,87
+qwen-2.5-vl-screen,WorkArena++,GPT-4o,Optimality,0.4713,,,,,,0,87
+qwen-2.5-vl-screen,WorkArena++,Llama 3.3,Success,93.1,100.0,25.0,40.0,92.9,100.0,0,87
+qwen-2.5-vl-screen,WorkArena++,Llama 3.3,Side Effect,46.0,4.2,66.7,7.8,97.4,45.2,1,87
+qwen-2.5-vl-screen,WorkArena++,Llama 3.3,Repetition,90.8,90.7,100.0,95.1,100.0,11.1,0,87
+qwen-2.5-vl-screen,WorkArena++,Llama 3.3,Optimality,0.6322,,,,,,0,87
+qwen-2.5-vl-screen,WorkArena++,Qwen2.5-VL,Success,94.2,88.9,66.7,76.2,94.9,98.7,0,87
+qwen-2.5-vl-screen,WorkArena++,Qwen2.5-VL,Side Effect,60.9,5.7,66.7,10.5,98.1,60.7,1,87
+qwen-2.5-vl-screen,WorkArena++,Qwen2.5-VL,Repetition,97.7,97.3,100.0,98.6,100.0,86.7,0,87
+qwen-2.5-vl-screen,WorkArena++,Qwen2.5-VL,Optimality,0.6782,,,,,,0,87
+qwen-2.5-vl-screen,WorkArena++,All,Success,89.1,79.2,36.5,50.0,89.8,98.3,0,348
+qwen-2.5-vl-screen,WorkArena++,All,Side Effect,50.6,8.2,83.3,14.8,98.2,48.8,1,348
+qwen-2.5-vl-screen,WorkArena++,All,Repetition,85.6,84.5,100.0,91.6,100.0,34.2,0,348
+qwen-2.5-vl-screen,WorkArena++,All,Optimality,0.523,,,,,,0,348
+qwen-2.5-vl-screen,Overall,Claude 3.7 Sonnet,Success,81.3,71.7,71.7,71.7,86.1,86.1,0,300
+qwen-2.5-vl-screen,Overall,Claude 3.7 Sonnet,Side Effect,67.7,11.9,60.0,19.8,96.0,68.2,1,300
+qwen-2.5-vl-screen,Overall,Claude 3.7 Sonnet,Repetition,79.3,63.4,98.1,77.0,98.5,69.1,0,300
+qwen-2.5-vl-screen,Overall,Claude 3.7 Sonnet,Optimality,0.3833,,,,,,0,300
+qwen-2.5-vl-screen,Overall,GPT-4o,Success,84.7,76.1,74.5,75.3,88.5,89.3,0,300
+qwen-2.5-vl-screen,Overall,GPT-4o,Side Effect,72.3,7.8,33.3,12.6,94.6,74.8,1,300
+qwen-2.5-vl-screen,Overall,GPT-4o,Repetition,85.0,78.3,96.6,86.5,95.7,73.5,0,300
+qwen-2.5-vl-screen,Overall,GPT-4o,Optimality,0.45,,,,,,0,300
+qwen-2.5-vl-screen,Overall,Llama 3.3,Success,89.8,69.4,71.4,70.4,94.1,93.6,0,206
+qwen-2.5-vl-screen,Overall,Llama 3.3,Side Effect,61.7,2.6,28.6,4.8,96.2,62.8,1,206
+qwen-2.5-vl-screen,Overall,Llama 3.3,Repetition,86.9,84.9,97.0,90.5,92.6,68.5,0,206
+qwen-2.5-vl-screen,Overall,Llama 3.3,Optimality,0.5583,,,,,,0,206
+qwen-2.5-vl-screen,Overall,Qwen2.5-VL,Success,87.3,71.0,73.1,72.1,92.2,91.4,0,300
+qwen-2.5-vl-screen,Overall,Qwen2.5-VL,Side Effect,70.9,14.3,44.4,21.6,93.0,73.5,1,299
+qwen-2.5-vl-screen,Overall,Qwen2.5-VL,Repetition,89.7,88.4,96.9,92.5,92.9,76.0,0,300
+qwen-2.5-vl-screen,Overall,Qwen2.5-VL,Optimality,0.5,,,,,,0,300
+qwen-2.5-vl-screen,Overall,All,Success,85.4,72.6,72.9,72.8,90.1,90.0,0,1106
+qwen-2.5-vl-screen,Overall,All,Side Effect,68.7,9.5,44.4,15.6,94.8,70.4,1,1105
+qwen-2.5-vl-screen,Overall,All,Repetition,85.1,79.3,97.1,87.3,95.7,71.6,0,1106
+qwen-2.5-vl-screen,Overall,All,Optimality,0.4656,,,,,,0,1106

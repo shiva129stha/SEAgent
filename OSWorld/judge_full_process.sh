@@ -1,0 +1,1 @@
+MID_PATH=results_en_phase0/7b_new_traj_multi_env=8_vscode_new_fix_nimg=5_maxtraj=15_t=0.0_r0 python judge_full_process.py
