@@ -2,7 +2,7 @@
 
 This repository is the official implementation of SEAgent.
 
-**[SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience](https://arxiv.org/abs/2312.03818)**
+**[SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience](https://arxiv.org/abs/2508.04700)**
 </br>
 [Zeyi Sun](https://sunzey.github.io/),
 [Ziyu Liu](https://liuziyu77.github.io/),
@@ -16,7 +16,7 @@ This repository is the official implementation of SEAgent.
 <a href="https://arxiv.org/abs/2312.03818"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
 </p> -->
 <p align="center">
-📖<a href="https://arxiv.org/abs/2503.01785">Paper</a> |
+📖<a href="https://arxiv.org/abs/2508.04700">Paper</a> |
 🤗<a href="https://huggingface.co/Zery/SEAgent-1.0-7B">SEAgent-1.0-7B</a> | 🤗<a href="https://huggingface.co/Zery/CUA_World_State_Model">World State Model-7B</a></h3>
 </p>
 
@@ -135,14 +135,14 @@ We sincerely thank [UI-TARS](https://github.com/bytedance/UI-TARS), [OSWorld](ht
 
 ## ✒️ Citation
 ```
-@misc{liu2025visualagenticreinforcementfinetuning,
-      title={Visual Agentic Reinforcement Fine-Tuning}, 
-      author={Ziyu Liu and Yuhang Zang and Yushan Zou and Zijian Liang and Xiaoyi Dong and Yuhang Cao and Haodong Duan and Dahua Lin and Jiaqi Wang},
+@misc{sun2025seagentselfevolvingcomputeruse,
+      title={SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience}, 
+      author={Zeyi Sun and Ziyu Liu and Yuhang Zang and Yuhang Cao and Xiaoyi Dong and Tong Wu and Dahua Lin and Jiaqi Wang},
       year={2025},
-      eprint={2505.14246},
+      eprint={2508.04700},
       archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2505.14246}, 
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2508.04700}, 
 }
 ```
 
